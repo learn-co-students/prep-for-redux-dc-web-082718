@@ -29,7 +29,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header count={this.state.count} renderDescription={this.renderDescription}/>
+        <Header renderDescription={this.renderDescription}/>
         <Counter count={this.state.count} increment={this.increment} decrement={this.decrement} renderDescription={this.renderDescription}/>
       </div>
     );
